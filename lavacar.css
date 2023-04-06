@@ -1,0 +1,35 @@
+header{
+     background:rgb(183, 144, 221); /* cor fundo */
+     padding: 20px 0;
+}
+
+.cabecalho{
+    position: relative; /* texto no meio*/
+    width: 500px; /*largura da caixaa*/
+    margin: 0 auto; /*calcula margem*/
+}
+
+nav{
+    position: absolute; /*ocupa todo espaço*/
+    top: 110px; /*ficar no topo*/
+    right: 0; /*alinhando a direita*/
+}
+
+nav li{
+    display: inline; /*ficar na horizontal*/
+    margin: 0 0 0 15px; /* espaço para esquerda*/
+}
+
+nav a{
+    text-transform: uppercase; /*maiusculo*/
+    color:black; /*cor da letra*/
+    font-weight: bold; /*texto*/
+    font-size: 22px; /*tamanho texto*/
+    text-decoration: none; /*tirar sublinhado*/
+
+}
+
+nav a:hover{
+    color: blueviolet;
+    text-decoration: underline;
+}
